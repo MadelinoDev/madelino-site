@@ -1,0 +1,3 @@
+npm start para debuggear en local
+ctrl+c en la consola para parar la depuracion local
+npm run deploy para subirlsa cosas al repo
