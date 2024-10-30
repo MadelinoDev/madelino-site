@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/madelino-site/static/css/main.f855e6bc.css",
-    "main.js": "/madelino-site/static/js/main.90f6d653.js",
+    "main.css": "/madelino-site/static/css/main.72fc7f13.css",
+    "main.js": "/madelino-site/static/js/main.6cdf3e30.js",
     "static/js/453.0977be5c.chunk.js": "/madelino-site/static/js/453.0977be5c.chunk.js",
+    "static/media/SOSgameplay.jpg": "/madelino-site/static/media/SOSgameplay.9370e4ba1280e076eafa.jpg",
     "static/media/logo.svg": "/madelino-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/madelino-site/index.html",
-    "main.f855e6bc.css.map": "/madelino-site/static/css/main.f855e6bc.css.map",
-    "main.90f6d653.js.map": "/madelino-site/static/js/main.90f6d653.js.map",
+    "main.72fc7f13.css.map": "/madelino-site/static/css/main.72fc7f13.css.map",
+    "main.6cdf3e30.js.map": "/madelino-site/static/js/main.6cdf3e30.js.map",
     "453.0977be5c.chunk.js.map": "/madelino-site/static/js/453.0977be5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.90f6d653.js"
+    "static/css/main.72fc7f13.css",
+    "static/js/main.6cdf3e30.js"
   ]
 }
