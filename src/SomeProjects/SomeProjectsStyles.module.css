@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+
+}
+
+
+.SomeProjects{
+  background-color: #142d5a;
+  color: white;
+  padding: 20px 30px;
+}
+
+
+.ImgCanva{
+  display: inline-block;
+  padding: 20px 30px;
+  color: white;
+}
+
+
+.ImgCanva img{
+  width: 500px;
+  height: auto;
+}
+
+.ImgCanva h4{
+  text-transform: uppercase;
+}

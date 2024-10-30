@@ -7,18 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body p{
-  font-size: 30px;
-  padding: 50px 200px;
 
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-.header {
+.Description {
+  font-size: 30px;
+  padding: 50px 200px;
+}
+
+.DownloadButton {
+  background-color: #9DD1F1;
+  border-radius: 3px;
+  color: #004E89;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
-  text-align: left;
+}
+
+
+
+.SomeProjects{
+  background-color: #11367a;
 }
