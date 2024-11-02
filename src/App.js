@@ -3,6 +3,7 @@ import SOSG from './SOSgameplay.jpg'
 import './App.css';
 import Header from './Header/Header'
 import SomeProjects from './SomeProjects/SomeProjects'
+import ProgramsCanva from './ProgramsCanvas/ProgramsCanvas'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <p>Mi objetivo profesional es adquirir experiencia en programación participando en diferentes proyectos.</p>
         <button className='DownloadButton'>Download CV </button>
       </div>
-      <SomeProjects className="SomeProjects"></SomeProjects>
+      <SomeProjects className="SomeProjects" title="ALGUNOS PROYECTOS"></SomeProjects>
+      <ProgramsCanva title="SKILLS"></ProgramsCanva>
         
         
     

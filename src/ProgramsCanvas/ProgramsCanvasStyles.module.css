@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+
+}
+
+
+.ProgramsCanva{
+  background-color: white;
+  color: rgb(20, 45, 90);
+  padding: 20px 300px;
+}
+
+.ProgramsCanva h1{
+  color: rgb(20, 45, 90);
+  font-size: 40px;
+}
+
+.ProgramsCanva h2{
+  color: rgb(20, 45, 90);
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+
+.ImgGallery{
+  display: inline-block;
+  padding: 20px 30px;
+  margin-top: 30px;
+  color: rgb(20, 45, 90);
+}
+
+
+.ImgGallery img{
+  width: auto;
+  height: 180px;
+  margin: 10px 20px;
+}
+
+
+
+.ImgGallery h4{
+  text-transform: uppercase;
+}
