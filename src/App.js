@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Header/Header'
 import SomeProjects from './SomeProjects/SomeProjects'
 import ProgramsCanva from './ProgramsCanvas/ProgramsCanvas'
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       <SomeProjects className="SomeProjects" title="ALGUNOS PROYECTOS"></SomeProjects>
       <ProgramsCanva title="SKILLS"></ProgramsCanva>
+      <Footer></Footer>
         
         
     

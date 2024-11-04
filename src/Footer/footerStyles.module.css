@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: rgb(20, 45, 90);
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.footer img{
+  height: 60px;
+  width: auto;
+}
+
+.footer div{
+  display: inline-block;
+  margin: 0px 60px;
+}
+
+
+.footer p{
+  font-size: 20px;
+}
