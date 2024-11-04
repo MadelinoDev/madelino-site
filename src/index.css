@@ -14,28 +14,22 @@ code {
     monospace;
 }
 
-.Description {
-  font-size: 30px;
-  padding: 50px 200px;
-}
+
 
 .DownloadButton {
-  background-color: #9DD1F1;
+  background-color: rgb(24, 53, 107);
   border-radius: 3px;
-  color: #004E89;
+  color: white;
   font-family: 'Yantramanav', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   display: inline-block;
-  margin: 10px;
-  padding: 12px;
+  margin-top: 40px;
+  padding: 10px 50px;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
   text-transform: uppercase;
 }
 
 
-
-.SomeProjects{
-  background-color: #11367a;
-}

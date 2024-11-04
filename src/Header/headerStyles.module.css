@@ -20,21 +20,29 @@ body {
     text-transform: uppercase;
     text-align: right;
     padding-right: 20px;
-    background-color: rgba(120, 120, 120, 0.2);
-
-
+    color:white;
+    background-color: rgba(15, 47, 105, 0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
   }
 
 
   .header a {
+    color: #ffffff;
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     display: inline-block;
-    margin: 10px;
+    margin: 5px 10px;
     padding: 12px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .header a:hover {
+    color: #636060;
   }
   

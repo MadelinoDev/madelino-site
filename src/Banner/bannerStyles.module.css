@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+.banner{
+  background-image: url('../img/Banner/FotoManu.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.55);
+  background-blend-mode: multiply;
+  margin-top: 0;
+  padding: 20px;
+}
+
+
+.tituloManu{
+  padding-top: 20px;
+  padding-left: 160px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: white;
+}
+
+.tituloManu h2{
+  font-size: 60px;
+}
+
+.tituloManu h3{
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+
+
+
+

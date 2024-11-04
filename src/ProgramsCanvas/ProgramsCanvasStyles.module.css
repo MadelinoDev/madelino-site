@@ -8,6 +8,8 @@
   background-color: white;
   color: rgb(20, 45, 90);
   padding: 20px 300px;
+  position: relative;
+  top: 80px;
 }
 
 .ProgramsCanva h1{

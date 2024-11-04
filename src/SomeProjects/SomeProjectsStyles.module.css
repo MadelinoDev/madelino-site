@@ -8,6 +8,8 @@
   background-color: rgb(20, 45, 90);
   color: white;
   padding: 20px 30px;
+  position: relative;
+  top: 80px;
 }
 
 
