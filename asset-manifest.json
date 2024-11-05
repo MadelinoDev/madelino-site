@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/madelino-site/static/css/main.5571eaf4.css",
-    "main.js": "/madelino-site/static/js/main.6295a5d7.js",
+    "main.css": "/madelino-site/static/css/main.71ca3598.css",
+    "main.js": "/madelino-site/static/js/main.3e739d14.js",
     "static/js/453.bec2f8ef.chunk.js": "/madelino-site/static/js/453.bec2f8ef.chunk.js",
     "static/media/Cursebreaker.png": "/madelino-site/static/media/Cursebreaker.853216285e281d803c56.png",
     "static/media/SPO.png": "/madelino-site/static/media/SPO.d4a5292f62c3f21b5c9b.png",
@@ -39,12 +39,12 @@
     "static/media/figma.png": "/madelino-site/static/media/figma.f66190a87fa4feac2c2b.png",
     "static/media/logo.svg": "/madelino-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/madelino-site/index.html",
-    "main.5571eaf4.css.map": "/madelino-site/static/css/main.5571eaf4.css.map",
-    "main.6295a5d7.js.map": "/madelino-site/static/js/main.6295a5d7.js.map",
+    "main.71ca3598.css.map": "/madelino-site/static/css/main.71ca3598.css.map",
+    "main.3e739d14.js.map": "/madelino-site/static/js/main.3e739d14.js.map",
     "453.bec2f8ef.chunk.js.map": "/madelino-site/static/js/453.bec2f8ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5571eaf4.css",
-    "static/js/main.6295a5d7.js"
+    "static/css/main.71ca3598.css",
+    "static/js/main.3e739d14.js"
   ]
 }
