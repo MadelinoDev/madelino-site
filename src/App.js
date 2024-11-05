@@ -16,6 +16,7 @@ function App() {
       <Descritpion> </Descritpion>
       <SomeProjects className="SomeProjects" title="ALGUNOS PROYECTOS"></SomeProjects>
       <ProgramsCanva title="SKILLS"></ProgramsCanva>
+      
       <Footer></Footer>
     </div>
   );

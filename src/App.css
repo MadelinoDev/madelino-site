@@ -1,5 +1,3 @@
-
-
 .App {
   text-align: center;
 }
@@ -61,4 +59,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+
+
+
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prevImage,
+.nextImage {
+  opacity: 0.5;
+  transform: scale(0.8);
+  z-index: 1;
+}
+
+.activeImage {
+  z-index: 2;
+  flex: 1;
 }
