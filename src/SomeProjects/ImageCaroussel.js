@@ -45,8 +45,10 @@ function ImageCarousel({ images }) {
                 />
                 <input type="image" className={SomeProjectsStyle.nextButton} onClick={handleNextClick} src={nextButton}></input>
             </div>
-            <h3 className={SomeProjectsStyle.imageTitle}>{images[currentImageIndex].title}</h3>
-            <div className={SomeProjectsStyle.imageText}>{images[currentImageIndex].text}</div>
+            <div className={SomeProjectsStyle.projectTextBlock}>
+                <h3 className={SomeProjectsStyle.imageTitle}>{images[currentImageIndex].title}</h3>
+                <div className={SomeProjectsStyle.imageText}>{images[currentImageIndex].text}</div>
+            </div>
         </div>
     );
 }

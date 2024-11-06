@@ -15,18 +15,16 @@ const images = [
         src: SOSimg,
         title: 'SUPERFIGHTERS OF SURVIVAL',
         text: (<div >
-            <ul className={SomeProjectsStyle.listUnordered}>
-                <li>Superfighters of Survival es un proyecto de Unreal Engine 5 con un equipo de 30 personas divididas en los principales roles de la industria: diseño, programación, producción y arte.</li>
-                <li>SOS es un juego de combate a muerte de gladiadores donde los jugadores luchan por ganar el favor del público en una arena cambiante.</li>
-                <li>Este es el proyecto en el que he participado que más se acerca al trabajo real en la industria. El desafío de tener un equipo grande nos permite entender el flujo de trabajo de las empresas del sector.</li>
-                <li>
-                Trabajar en este proyecto me permitió desarrollar mis habilidades en la documentación de ideas, ya sea con Excel, diagramas o comunicación efectiva, y me permitió aprender algunas disciplinas dentro del diseño de juegos como:
-                    <ul>
+            <ul >
+                <p>Superfighters of Survival es un proyecto de Unreal Engine 5 con un equipo de 30 personas divididas en los principales roles de la industria: diseño, programación, producción y arte. SOS es un juego de combate a muerte de gladiadores donde los jugadores luchan por ganar el favor del público en una arena cambiante.</p>
+                <div>
+                    <p>Este es el proyecto en el que he participado que más se acerca al trabajo real en la industria. El desafío de tener un equipo grande nos permite entender el flujo de trabajo de las empresas del sector. Trabajar en este proyecto me permitió desarrollar mis habilidades en la documentación de ideas, ya sea con Excel, diagramas o comunicación efectiva, y me permitió aprender algunas disciplinas dentro del diseño de juegos como:</p>
+                    <ul className={SomeProjectsStyle.listUnordered}>
                         <li>IA: Diseño de diferentes IA con comportamientos cruzados.</li>
                         <li>Combate: Aprendizaje sobre notificadores de eventos en animaciones, ajuste y pulido al máximo.</li>
                         <li>UI/UX: Diseño e implementación extensos de características de UI como tutoriales, mecánicas, animaciones...</li>
                     </ul>
-                </li>
+                </div>
             </ul>
         </div>)
     },
@@ -43,10 +41,10 @@ const images = [
         src: SPOimg,
         title: 'STEAMPUNK OVERRIDE',
         text: (<div >
-            <ul className={SomeProjectsStyle.listUnordered}>
-                <li>Juego desarrollado en una semana por 5 amigos utilizando Unity durante un game jam.</li>
-                <li>El tema era "De 0 a 100", y decidimos hacer un juego de fiesta donde la cooperación es esencial para arrancar un tren y llevarlo a 100 km/h mientras es atacado por monstruos.</li>  
-            </ul>
+
+            <p>Juego desarrollado en una semana por 5 amigos utilizando Unity durante un game jam.</p>
+            <p>El tema era "De 0 a 100", y decidimos hacer un juego de fiesta donde la cooperación es esencial para arrancar un tren y llevarlo a 100 km/h mientras es atacado por monstruos.</p>
+
         </div>)
     },
     // Agrega más imágenes aquí
@@ -54,8 +52,8 @@ const images = [
 
 export default function SomeProjects({ title }) {
     return (
-        <div id="proyectos"className={SomeProjectsStyle.SomeProjects}>
-            <h2>{title}</h2>
+        <div id="proyectos" className={SomeProjectsStyle.SomeProjects}>
+            <h2 style={{marginBottom: "40px"}}>{title}</h2>
             <ImageCarousel images={images}></ImageCarousel>
         </div>
     );

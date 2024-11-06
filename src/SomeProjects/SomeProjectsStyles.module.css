@@ -7,27 +7,12 @@
 .SomeProjects{
   background-color: rgb(20, 45, 90);
   color: white;
-  padding: 20px 30px;
+  padding:  20px  30px  60px  30px ;
   position: relative;
   top: 80px;
 }
 
-/* 
-.ProjectImg{
-  display: inline-block;
-  padding: 20px 30px;
-  color: white;
-}
 
-
-.ProjectImg img{
-  width: 500px;
-  height: auto;
-}
-
-.ProjectImg h4{
-  text-transform: uppercase;
-} */
 
 .listUnordered{
   position: relative; 
@@ -41,8 +26,13 @@
   text-align: left;
 }
 
+.projectTextBlock{
+  margin-top: 50px;
+}
 .imageText{
   margin: 10px 400px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .carousel {
