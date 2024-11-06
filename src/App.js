@@ -16,7 +16,9 @@ function App() {
       <Descritpion> </Descritpion>
       <SomeProjects className="SomeProjects" title="ALGUNOS PROYECTOS"></SomeProjects>
       <ProgramsCanva title="SKILLS"></ProgramsCanva>
-      
+      <a className='DownloadButton' href="https://drive.google.com/uc?export=download&id=1UM2tmeHWT3Ei_yluMFL2EMoWQ16udFun" download>
+                    <div>Descargar CV</div>
+                </a>
       <Footer></Footer>
     </div>
   );

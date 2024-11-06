@@ -57,7 +57,7 @@
   height: 75px;
   width: auto;
   margin: 0px 20px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.15s ease-in-out;
 }
 
 .prevButton{
@@ -65,16 +65,16 @@
   height: 75px;
   width: auto;
   margin: 0px 20px;
-  transition: transform 0.1s ease-in-out;
+  transition: transform 0.15s ease-in-out;
 }
 
 .prevButton:hover{
-  transform: scale(-1.2); 
+  transform: scale(-1.15); 
   
   
 }
 .nextButton:hover{
-  transform: scale(1.2); 
+  transform: scale(1.15); 
 }
 
 .prevImage,

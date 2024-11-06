@@ -20,32 +20,30 @@ export default function Header() {
     //color azul 20, 45, 90
     return (
         <header className={styles.header} style={{ backgroundColor: `rgba(0, 0, 0, ${opacity})` }}>
-            <Link
-                activeClass="active"
-                to="description"
-                spy={true}
-                smooth={true}
-                offset={-70}
-            >
-                Curriculum
-            </Link>
-            <Link
-                activeClass="active"
-                to="proyectos"
-                spy={true}
-                smooth={true}
-                offset={-150}
-            >
-                Proyectos
-            </Link><Link
-                activeClass="active"
-                to="sobremi"
-                spy={true}
-                smooth={true}
-                offset={-70}
-            >
-                Sobre mi
-            </Link>
+            <div className={styles.headerLeft} style={{ color: `rgba(255, 255, 255, ${opacity})` }}>
+                <p>Manuel Adeliño Consuegra</p>
+            </div>
+            <div className={styles.headerRight}>
+                <Link
+                    activeClass="active"
+                    to="description"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                >
+                    Curriculum
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="proyectos"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                >
+                    Proyectos
+                </Link>
+            </div>
+
         </header>
     );
 }

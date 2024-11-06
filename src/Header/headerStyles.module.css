@@ -18,7 +18,6 @@ body {
   
   .header {
     text-transform: uppercase;
-    text-align: right;
     padding-right: 20px;
     color:white;
     background-color: rgba(15, 47, 105, 0.2);
@@ -27,6 +26,21 @@ body {
     z-index: 10;
   }
 
+  .headerLeft{
+    text-align: left;
+    font-size: 18px;
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    font-weight: 500;
+    
+  }
+  .headerRight{
+    text-align: right;
+    display: inline-block;
+    float: right;
+
+  }
 
   .header a {
     color: #ffffff;
@@ -36,13 +50,15 @@ body {
     display: inline-block;
     margin: 5px 10px;
     padding: 12px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
+    transition: transform 0.15s ease-in-out;
   }
 
   .header a:hover {
-    color: #636060;
+    transform: scale(1.15);
+    
   }
   

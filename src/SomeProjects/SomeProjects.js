@@ -57,9 +57,6 @@ export default function SomeProjects({ title }) {
         <div id="proyectos"className={SomeProjectsStyle.SomeProjects}>
             <h2>{title}</h2>
             <ImageCarousel images={images}></ImageCarousel>
-            {/* <ProjectImg src={SOSimg} gameName="SUPERFIGHTERS OF SURVIVAL"></ProjectImg>
-            <ProjectImg src={CBimg} gameName="CURSEBREAKERS"></ProjectImg>
-            <ProjectImg src={SPOimg} gameName="STEAMPUNK OVERRIDE"></ProjectImg> */}
         </div>
     );
 }

@@ -7,9 +7,10 @@
 .ProgramsCanva{
   background-color: white;
   color: rgb(20, 45, 90);
-  padding: 20px 300px;
+  padding: 20px 250px;
   position: relative;
   top: 80px;
+  margin-bottom: 100px;
 }
 
 .ProgramsCanva h1{
@@ -19,7 +20,7 @@
 
 .ProgramsCanva h2{
   color: rgb(20, 45, 90);
-  font-size: 25px;
+  font-size: 30px;
   padding-bottom: 10px;
 }
 
@@ -27,7 +28,8 @@
 .ImgGallery{
   display: inline-block;
   padding: 20px 30px;
-  margin-top: 30px;
+  margin-top:40px;
+  margin-bottom: 20px;
   color: rgb(20, 45, 90);
 }
 
@@ -40,6 +42,6 @@
 
 
 
-.ImgGallery h4{
+.ImgGallery h2{
   text-transform: uppercase;
 }

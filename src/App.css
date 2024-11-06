@@ -34,7 +34,7 @@
 
 .DownloadButton {
   background-color: rgb(24, 53, 107);
-  border-radius: 3px;
+  border-radius: 10px;
   color: white;
   font-family: 'Yantramanav', sans-serif;
   font-size: 18px;
@@ -46,6 +46,12 @@
   text-decoration: none;
   cursor: pointer;
   text-transform: uppercase;
+  transition: transform 0.1s ease-in-out;
+}
+
+
+.DownloadButton:hover{
+  transform: scale(1.05);
 }
 
 .App-link {
