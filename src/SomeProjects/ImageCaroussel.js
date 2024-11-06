@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import SomeProjectsStyle from './SomeProjectsStyles.module.css'
 
+
+
+
+import nextButton from '../img/Games/nextButtonWhite.png'
+
 function ImageCarousel({ images }) {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -20,12 +25,12 @@ function ImageCarousel({ images }) {
     return (
         <div>
             <div className={SomeProjectsStyle.carousel}>
-                <button className={SomeProjectsStyle.prevButton} onClick={handlePrevClick}>Anterior</button>
-
+                <input type="image" className={SomeProjectsStyle.prevButton} onClick={handlePrevClick} src={nextButton}></input>
                 <img
                     className={SomeProjectsStyle.prevImage}
                     src={images[(currentImageIndex + images.length - 1) % images.length].src}
                     alt="Imagen previa"
+                    onClick={handlePrevClick}
                 />
                 <img
                     className={SomeProjectsStyle.activeImage}
@@ -36,8 +41,9 @@ function ImageCarousel({ images }) {
                     className={SomeProjectsStyle.nextImage}
                     src={images[(currentImageIndex + 1) % images.length].src}
                     alt="Imagen siguiente"
+                    onClick={handleNextClick}
                 />
-                <button className={SomeProjectsStyle.nextButton} onClick={handleNextClick}>Siguiente</button>
+                <input type="image" className={SomeProjectsStyle.nextButton} onClick={handleNextClick} src={nextButton}></input>
             </div>
             <h3 className={SomeProjectsStyle.imageTitle}>{images[currentImageIndex].title}</h3>
             <div className={SomeProjectsStyle.imageText}>{images[currentImageIndex].text}</div>
