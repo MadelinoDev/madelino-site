@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import SOSG from './SOSgameplay.jpg'
-import './App.css';
+import React from "react"
+import Styles from './App.module.css';
 import Header from './Header/Header'
 import Banner from './Banner/Banner'
 import Descritpion from './Description/Description'
@@ -10,15 +9,15 @@ import Footer from './Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className={Styles.App}>
       <Header></Header>
       <Banner></Banner>
       <Descritpion> </Descritpion>
-      <SomeProjects className="SomeProjects" title="ALGUNOS PROYECTOS"></SomeProjects>
+      <SomeProjects title="ALGUNOS PROYECTOS"></SomeProjects>
       <ProgramsCanva title="SKILLS"></ProgramsCanva>
-      <a className='DownloadButton' href="https://drive.google.com/uc?export=download&id=1UM2tmeHWT3Ei_yluMFL2EMoWQ16udFun" download>
+      <a  className={Styles.DownloadButton} href="https://drive.google.com/uc?export=download&id=1UM2tmeHWT3Ei_yluMFL2EMoWQ16udFun" download>
                     <div>Descargar CV</div>
-                </a>
+      </a>
       <Footer></Footer>
     </div>
   );

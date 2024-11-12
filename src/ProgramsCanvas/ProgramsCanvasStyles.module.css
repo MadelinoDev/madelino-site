@@ -7,10 +7,11 @@
 .ProgramsCanva{
   background-color: white;
   color: rgb(20, 45, 90);
-  padding: 20px 250px;
+  margin: 20px 15vw;
   position: relative;
   top: 80px;
   margin-bottom: 100px;
+  
 }
 
 .ProgramsCanva h1{

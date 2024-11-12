@@ -78,7 +78,7 @@ const softwareImgs = [
     {src: ogreImg, alt: "Ogre3D"},
     {src: audacityImg, alt: "Audacity"},
     {src: confluenceImg, alt: "Confluence"},
-    {src: openXRImg, alt: "OpenXR"},
+    {src: openXRImg, alt: "OpenXR"}, 
     {src: githubImg, alt: "GitHub"},
     {src: perforceImg, alt: "Perforce"}
 ]
